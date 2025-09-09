@@ -83,13 +83,6 @@ Optional AI: Connect an LLM for decision-log generation
 ├─ styles/                   # Tailwind & custom CSS
 └─ README.md
 
-🛠️ Getting Started (Local)
-
-Clone
-
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
 
 Install
 
@@ -155,19 +148,6 @@ On each replan: append a log with timestamp, hazard, action, delta-v/time/safety
 
 In mock mode, logs are templated; in ai mode they’re generated via LLM.
 
-🗄️ Mock API Endpoints
-
-GET /api/trajectory → nominal + alternatives (polyline/spline points)
-
-GET /api/hazards → active hazard list
-
-POST /api/simulate-hazard → spawns a new hazard
-
-POST /api/emergency-stop → toggles pause/resume
-
-GET /api/logs → decision logs (mock or AI)
-
-(Endpoints are file-based routes inside app/api/.)
 
 🧠 Roadmap
 
