@@ -98,22 +98,6 @@ OPENAI_API_KEY=your_key_here
 ODIN_LOGS_MODE=mock   # "mock" or "ai"
 
 
-Run
-
-npm run dev
-# Visit http://localhost:3000
-
-🧪 Scripts
-{
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit"
-  }
-}
-
 🧩 Core Interactions (How it Works)
 
 Selecting an Alternative Path
