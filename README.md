@@ -2,7 +2,7 @@ ODIN — Optimal Dynamic Interplanetary Navigator (Prototype)
 ----
 🔗 Live Demo
 
-Live App: https://v0-remix-of-odin-space-navigation-s.vercel.app/
+Live App: https://v0-remix-of-odin-space-navigation-two.vercel.app/
 ----
 ODIN is a cinematic, interactive prototype of an AI co-pilot for Earth-to-Moon navigation. It plans a nominal trajectory, detects dynamic hazards (solar flares, meteors, debris), and replans in real time with clear, human-readable decision logs—just like your hackathon presentation promised.
 
